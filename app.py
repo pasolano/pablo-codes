@@ -5,8 +5,11 @@ import os
 
 from feedgen.feed import FeedGenerator
 from flask import Flask, render_template, request, redirect, Response, send_file, abort
+from flask_talisman import Talisman
 
 app = Flask(__name__)
+
+Talisman(app)
 
 try:
     app.config['GA_TRACKING_ID'] = os.environ['GA_TRACKING_ID']
