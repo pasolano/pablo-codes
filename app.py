@@ -8,6 +8,7 @@ from flask import Flask, render_template, request, redirect, Response, send_file
 from flask_talisman import Talisman
 
 app = Flask(__name__)
+Talisman(app, content_security_policy=None)
 
 try:
     app.config['GA_TRACKING_ID'] = os.environ['GA_TRACKING_ID']
@@ -168,8 +169,6 @@ def podcast_feed_generator():
         fe.enclosure(podcast['url'], 0, 'audio/mpeg')
 
     return fg
-
-Talisman(app)
 
 if __name__ == "__main__":
     print("running py app")
