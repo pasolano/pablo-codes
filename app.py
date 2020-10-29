@@ -9,8 +9,6 @@ from flask_talisman import Talisman
 
 app = Flask(__name__)
 
-Talisman(app)
-
 try:
     app.config['GA_TRACKING_ID'] = os.environ['GA_TRACKING_ID']
 except:
@@ -171,6 +169,7 @@ def podcast_feed_generator():
 
     return fg
 
+Talisman(app)
 
 if __name__ == "__main__":
     print("running py app")
