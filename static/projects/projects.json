@@ -1,29 +1,28 @@
 {
   "projects": [
     {
-      "name": "Auto Quad",
-      "link": "auto-quad",
-      "date": "Sept 2018 - Ongoing",
-      "short": "The idea is to buy a cheap chinese quad and eliminate drift + stabilize + direct it using a camera placed on top.",
+      "name": "pablo.codes",
+      "link": "pablo.codes",
+      "date": "Oct 2020 - Ongoing",
+      "short": "Personal website for code achievements",
       "status": "ongoing",
-      "playstore": "",
       "weight": 8,
       "tags": [
         "media"
       ],
       "tech_used": [
-        "Android Studio",
-        "SugarORM",
-        "SOAP",
-        "Jaunt-API"
+        "Heroku",
+        "GitHub",
+        "Python",
+        "Flask"
       ],
       "photos": [
-        "/static/projects/auto-quad/img-1.jpg"
+        "/static/projects/pablo-codes/img-1.jpg"
       ],
-      "videos": [
-        "<iframe width=\"645\" height=\"481\" src=\"https://www.youtube.com/embed/kNVMfhi58ac\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
-      ],
-      "github": "https://github.com/botmayank/nrf24_multipro_h8_pc"
+      "github": "https://github.com/pasolano/pablo-codes"
     }
-  ]
+  ],
+  "videos": ["<iframe width=\"645\" height=\"481\" src=\"https://www.youtube.com/embed/kNVMfhi58ac\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"],
+  "playstore": "link"
 }
+
