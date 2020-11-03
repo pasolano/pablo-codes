@@ -4,11 +4,11 @@
       "name": "pablo.codes",
       "link": "pablo.codes",
       "date": "Oct 2020 - Ongoing",
-      "short": "Personal website for code achievements",
+      "short": "Personal website for coding achievements",
       "status": "ongoing",
       "weight": 8,
       "tags": [
-        "media"
+        "web-dev"
       ],
       "tech_used": [
         "Heroku",
@@ -17,7 +17,7 @@
         "Flask"
       ],
       "photos": [
-        "/static/projects/pablo-codes/img-1.png"
+        "/static/projects/pablo.codes/img-1.png"
       ],
       "github": "https://github.com/pasolano/pablo-codes"
     }
