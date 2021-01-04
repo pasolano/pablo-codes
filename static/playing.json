@@ -1,0 +1,455 @@
+[
+  {
+    "status": "To Play",
+    "games": [
+      {
+        "name": "Watch Dogs: Legion",
+        "platform": "PC",
+        "link": "https://www.ubisoft.com/en-us/game/watch-dogs/legion"
+      },
+      {
+        "name": "Cyberpunk 2077",
+        "platform": "PC",
+        "link": "https://www.cyberpunk.net/"
+      },
+      {
+        "name": "Quadrilateral Cowboy",
+        "platform": "PC",
+        "link": "https://blendogames.com/qc/"
+      },
+      {
+        "name": "Thirty Flights of Loving",
+        "platform": "PC",
+        "link": "https://blendogames.com/thirtyflightsofloving/"
+      },
+      {
+        "name": "Event[0]",
+        "platform": "PC",
+        "link": "https://event0game.com/"
+      }
+    ]
+  },
+  {
+    "status": "Playing",
+    "games": [
+      {
+        "name": "else Heart.Break()",
+        "platform": "PC",
+        "link": "http://elseheartbreak.com/"
+      },
+      {
+        "name": "Minecraft",
+        "platform": "PC/Switch/Mobile",
+        "link": "https://www.minecraft.net/",
+        "star": true
+      },
+      {
+        "name": "Fortnite",
+        "platform": "PC/Switch/Mobile",
+        "link": "https://www.epicgames.com/fortnite/"
+      },
+      {
+        "name": "WHAT THE GOLF?",
+        "platform": "Switch",
+        "link": "http://whatthegolf.com/"
+      },
+      {
+        "name": "Devolver Bootleg",
+        "platform": "PC",
+        "link": "https://www.devolverdigital.com/games/devolver-bootleg"
+      }
+    ]
+  },
+  {
+    "status": "Played",
+    "games": [
+      {
+        "name": "The Stanley Parable",
+        "platform": "PC",
+        "link": "https://www.stanleyparable.com/",
+        "star": true
+      },
+      {
+        "name": "Jazzpunk",
+        "platform": "PC",
+        "link": "http://jazzpunk.net/",
+        "star": true
+      },
+      {
+        "name": "Counter-Strike: Global Offensive",
+        "platform": "PC",
+        "link": "https://blog.counter-strike.net/",
+        "star": true
+      },
+      {
+        "name": "Garry's Mod",
+        "platform": "PC",
+        "link": "https://gmod.facepunch.com/"
+      },
+      {
+        "name": "PlayerUnknown's Battlegrounds",
+        "platform": "PC",
+        "link": "https://www.pubg.com/"
+      },
+      {
+        "name": "Terraria",
+        "platform": "PC",
+        "link": "https://terraria.org/"
+      },
+      {
+        "name": "Portal 2",
+        "platform": "PC",
+        "link": "https://www.thinkwithportals.com/"
+      },
+      {
+        "name": "Team Fortress 2",
+        "platform": "PC",
+        "link": "https://www.teamfortress.com/"
+      },
+      {
+        "name": "Duck Game",
+        "platform": "PC/Switch",
+        "link": "https://www.adultswim.com/games/duck-game",
+        "star": true
+      },
+      {
+        "name": "Sid Meier's Civilization V",
+        "platform": "PC",
+        "link": "https://civilization.com/civilization-5/"
+      },
+      {
+        "name": "Counter-Strike: Source",
+        "platform": "PC",
+        "link": "https://blog.counter-strike.net/"
+      },
+      {
+        "name": "Rocket League",
+        "platform": "PC/Switch",
+        "link": "https://www.rocketleague.com/"
+      },
+      {
+        "name": "Among Us",
+        "platform": "PC",
+        "link": "https://innersloth.com/gameAmongUs.php"
+      },
+      {
+        "name": "Left 4 Dead",
+        "platform": "PC/Xbox 360",
+        "link": "https://www.l4d.com/blog/"
+      },
+      {
+        "name": "Day of Defeat: Source",
+        "platform": "PC",
+        "link": "https://www.dayofdefeat.com/"
+      },
+      {
+        "name": "Left 4 Dead 2",
+        "platform": "PC",
+        "link": "https://www.l4d.com/blog/"
+      },
+      {
+        "name": "Hotline Miami 2: Wrong Number",
+        "platform": "PC/Switch",
+        "link": "https://hotlinemiami.com/",
+        "star": true
+      },
+      {
+        "name": "Warframe",
+        "platform": "PC/Switch",
+        "link": "https://www.warframe.com/"
+      },
+      {
+        "name": "Hotline Miami",
+        "platform": "PC/Switch",
+        "link": "https://hotlinemiami.com/",
+        "star": true
+      },
+      {
+        "name": "Undertale",
+        "platform": "PC",
+        "link": "https://undertale.com/"
+      },
+      {
+        "name": "SUPERHOT",
+        "platform": "PC",
+        "link": "https://superhotgame.com/"
+      },
+      {
+        "name": "SUPERHOT: MIND CONTROL DELETE",
+        "platform": "PC",
+        "link": "https://get-mcd.superhotgame.com/"
+      },
+      {
+        "name": "The Elder Scrolls V: Skyrim",
+        "platform": "PC",
+        "link": "https://elderscrolls.bethesda.net/en/skyrim"
+      },
+      {
+        "name": "Bioshock Infinite",
+        "platform": "PC",
+        "link": "https://2k.com/en-US/game/bioshock-infinite/"
+      },
+      {
+        "name": "Orwell",
+        "platform": "PC",
+        "link": "https://fellowtraveller.games/games/orwell/"
+      },
+      {
+        "name": "Broforce",
+        "platform": "PC",
+        "link": "https://broforcegame.com/"
+      },
+      {
+        "name": "Far Cry 3: Blood Dragon",
+        "platform": "PC",
+        "link": "https://www.ubisoft.com/en-us/game/far-cry/far-cry-3"
+      },
+      {
+        "name": "Stick Fight: The Game",
+        "platform": "PC",
+        "link": "https://landfall.se/stickfightthegame"
+      },
+      {
+        "name": "FTL: Faster Than Light",
+        "platform": "PC",
+        "link": "https://subsetgames.com/ftl.html"
+      },
+      {
+        "name": "Mainlining",
+        "platform": "PC/Switch",
+        "link": "https://www.mergegames.com/mainlining"
+      },
+      {
+        "name": "Gunpoint",
+        "platform": "PC",
+        "link": "https://www.pentadact.com/2013-06-05-gunpoint-is-out-its-9-it-has-a-launch-trailer/"
+      },
+      {
+        "name": "Borderlands 2",
+        "platform": "PC",
+        "link": "https://2k.com/en-US/game/borderlands-2/"
+      },
+      {
+        "name": "Starbound",
+        "platform": "PC",
+        "link": "https://playstarbound.com/"
+      },
+      {
+        "name": "Borderlands",
+        "platform": "PC",
+        "link": "https://2k.com/en-US/game/borderlands-1/"
+      },
+      {
+        "name": "Town of Salem",
+        "platform": "PC",
+        "link": "https://www.blankmediagames.com/"
+      },
+      {
+        "name": "Sniper Elite 3",
+        "platform": "PC",
+        "link": "https://rebellion.com/games/sniper-elite-3/"
+      },
+      {
+        "name": "Payday 2",
+        "platform": "PC/Xbox 360",
+        "link": "https://www.overkillsoftware.com/games/payday-2/"
+      },
+      {
+        "name": "Brawlhalla",
+        "platform": "PC",
+        "link": "https://www.brawlhalla.com/"
+      },
+      {
+        "name": "Grand Theft Auto: Vice City",
+        "platform": "PC",
+        "link": "https://www.rockstargames.com/games/vicecity"
+      },
+      {
+        "name": "Comedy Night",
+        "platform": "PC",
+        "link": "https://www.pcgamingwiki.com/wiki/Comedy_Night"
+      },
+      {
+        "name": "Hollow Knight",
+        "platform": "PC",
+        "link": "https://hollowknight.com/"
+      },
+      {
+        "name": "Hitman: Absolution",
+        "platform":"PC/Xbox 360",
+        "link": "https://www.ioi.dk/hitman-absolution/"
+      },
+      {
+        "name": "Goat Simulator",
+        "platform": "PC",
+        "link": "https://www.goat-simulator.com/"
+      },
+      {
+        "name": "Tokyo 42",
+        "platform": "PC",
+        "link": "https://www.smacgames.com/project/tokyo42"
+      },
+      {
+        "name": "Papers, Please",
+        "platform": "PC",
+        "link": "https://papersplea.se/"
+      },
+      {
+        "name": "The Jackbox Party Pack 3",
+        "platform": "PC/Switch",
+        "link": "https://www.jackboxgames.com/party-pack-three/"
+      },
+      {
+        "name": "Who's Your Daddy?!",
+        "platform": "PC",
+        "link": "https://eviltortillagames.com/"
+      },
+      {
+        "name": "Orion: Prelude",
+        "platform": "PC",
+        "link": "https://www.pcgamingwiki.com/wiki/Orion:_Prelude"
+      },
+      {
+        "name": "Rust",
+        "platform": "PC",
+        "link": "https://rust.facepunch.com/"
+      },
+      {
+        "name": "Half-Life: Source",
+        "platform": "PC",
+        "link": "https://www.half-life.com/en/halflife"
+      },
+      {
+        "name": "Human: Fall Flat",
+        "platform": "PC",
+        "link": "https://505games.com/games/human-fall-flat/"
+      },
+      {
+        "name": "Replica",
+        "platform": "PC",
+        "link": "https://somigames.com/replica/"
+      },
+      {
+        "name": "Uplink",
+        "platform": "PC",
+        "link": "https://www.introversion.co.uk/introversion/#games"
+      },
+      {
+        "name": "Besiege",
+        "platform": "PC",
+        "link": "http://www.besiege.spiderlinggames.co.uk/"
+      },
+      {
+        "name": "Ultimate Chicken Horse",
+        "platform": "PC",
+        "link": "https://www.cleverendeavourgames.com/ultimate-chicken-horse"
+      },
+      {
+        "name": "Tom Clancy's Splinter Cell: Chaos Theory",
+        "platform": "PC",
+        "link": "https://store.ubi.com/us/tom-clancys-splinter-cell-chaos-theory-/56c4948a88a7e300458b482a.html"
+      },
+      {
+        "name": "There Is No Game",
+        "platform": "PC",
+        "link": "https://store.steampowered.com/app/1241700/There_Is_No_Game_Jam_Edition_2015/"
+      },
+      {
+        "name": "Scribblenauts Unlimited",
+        "platform": "PC",
+        "link": "https://www.scribblenauts.com/"
+      },
+      {
+        "name": "Everything",
+        "platform": "PC",
+        "link": "http://www.everything-game.com/"
+      },
+      {
+        "name": "Surgeon Simulator",
+        "platform": "PC/Switch",
+        "link": "https://www.surgeonclassic.com/"
+      },
+      {
+        "name": "Fistful of Frags",
+        "platform": "PC",
+        "link": "https://fistful-of-frags.com/"
+      },
+      {
+        "name": "Spelunky",
+        "platform": "PC",
+        "link": "https://spelunkyworld.com/"
+      },
+      {
+        "name": "Totally Accurate Battlegrounds",
+        "platform": "PC",
+        "link": "https://landfall.se/totally-accurate-battlegrounds"
+      },
+      {
+        "name": "Geometry Dash",
+        "platform": "PC/Mobile",
+        "link": "http://www.robtopgames.com/"
+      },
+      {
+        "name": "Neon Struct",
+        "platform": "PC",
+        "link": "https://www.neonstruct.com/"
+      },
+      {
+        "name": "Dr. Langeskov, The Tiger, and The Terribly Cursed Emerald",
+        "platform": "PC",
+        "link": "https://crowscrowscrows.itch.io/dr-langeskov-the-tiger-and-the-terribly-cursed-emerald-a-whirlwind-heist"
+      },
+      {
+        "name": "Dino D-Day",
+        "platform": "PC",
+        "link": "https://www.dinodday.com/"
+      },
+      {
+        "name": "Hacknet",
+        "platform": "PC",
+        "link": "https://hacknet-os.com/"
+      },
+      {
+        "name": "hack_me",
+        "platform": "PC/Mobile",
+        "link": "https://store.steampowered.com/app/526740/hack_me/"
+      },
+      {
+        "name": "the static speaks my name",
+        "platform": "PC",
+        "link": "https://thewhalehusband.itch.io/thestatic"
+      },
+      {
+        "name": "War Trigger 3/Red Crucible 2",
+        "platform": "PC",
+        "link": "http://www.rocketeergames.com/main/wartrigger3.html"
+      },
+      {
+        "name": "Screencheat",
+        "platform": "PC",
+        "link": "https://samuraipunk.com/screencheat-unplugged"
+      },
+      {
+        "name": "Rising Storm 2: Vietnam",
+        "platform": "PC",
+        "link": "https://rs2vietnam.com/"
+      },
+      {
+        "name": "Grand Theft Auto V",
+        "platform": "PC/Xbox One",
+        "link": "https://www.rockstargames.com/V/",
+        "star": true
+      },
+      {
+        "name": "Watch Dogs",
+        "platform": "PC/Xbox 360",
+        "link": "https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs"
+      },
+      {
+        "name": "Watch Dogs 2",
+        "platform": "PC/Xbox One",
+        "link": "https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2"
+      }
+    ]
+  }
+]

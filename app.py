@@ -2,8 +2,9 @@ import datetime
 import io
 import json
 import os
+import re
 
-from flask import Flask, render_template, request, redirect, Response, send_file, abort
+from flask import Flask, render_template, request, redirect, Response, send_file, abort, url_for
 from flask_talisman import Talisman
 
 app = Flask(__name__)
@@ -14,18 +15,38 @@ try:
 except:
     print('Tracking ID not set')
 
-@app.route('/')
+page_names = ["home", "projects", "experiences", "playing"]
+
+@app.route('/', methods=['GET', 'POST'])
 def index():
-    age = int((datetime.date.today() - datetime.date(1995, 4, 22)).days / 365)
-    return render_template('home.html', age=age)
+    return render_template('home.html')
 
-@app.route('/reading')
-def reading():
-    data = get_static_json("static/reading.json")
-    return render_template('reading.html', data=data)
+@app.route('/terminal_input', methods=['POST'])
+def terminal_input():
+    input = request.form['response']
+    input = input.split(" ")
+    if len(input) == 2:
+        input[1] = str(input[1])
+        pattern = re.compile("projects/(.*)")
+        if input[0] == "cd" and (input[1] in page_names or bool(pattern.match(input[1]))):
+            try:
+                if '/' in list(input[1]):
+                    return redirect(url_for('.project', title=input[1].split('/')[1]))
+                return redirect(url_for(input[1]), 308)
+            except:
+                return redirect(url_for('.index'), 308)
+        else:
+            return redirect(url_for('.index'), 308)
+    else:
+        return redirect(url_for('.index'), 308)
+
+@app.route('/playing', methods=['GET', 'POST'])
+def playing():
+    data = get_static_json("static/playing.json")
+    return render_template('playing.html', data=data)
 
 
-@app.route('/projects')
+@app.route('/projects', methods=['GET', 'POST'])
 def projects():
     data = get_static_json("static/projects/projects.json")['projects']
     data.sort(key=order_projects_by_weight, reverse=True)
@@ -36,7 +57,7 @@ def projects():
 
     return render_template('projects.html', projects=data, tag=tag)
 
-@app.route('/experiences')
+@app.route('/experiences', methods=['GET', 'POST'])
 def experiences():
     experiences = get_static_json("static/experiences/experiences.json")['experiences']
     experiences.sort(key=order_projects_by_weight, reverse=True)
@@ -50,7 +71,7 @@ def order_projects_by_weight(projects):
         return 0
 
 
-@app.route('/projects/<title>')
+@app.route('/projects/<title>', methods=['GET', 'POST'])
 def project(title):
     projects = get_static_json("static/projects/projects.json")['projects']
     experiences = get_static_json("static/experiences/experiences.json")['experiences']
