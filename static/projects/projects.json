@@ -6,7 +6,7 @@
       "date": "Oct 2020 - Ongoing",
       "short": "Personal website for coding achievements",
       "status": "ongoing",
-      "weight": 8,
+      "weight": 2,
       "tags": [
         "web-dev"
       ],
@@ -17,9 +17,34 @@
         "Flask"
       ],
       "photos": [
-        "/static/projects/pablo.codes/img-1.png"
+        "/static/projects/pablo.codes/pablo.codes.png"
       ],
       "github": "https://github.com/pasolano/pablo-codes"
+    },
+    {
+      "name": "Spend Good",
+      "link": "spend-good",
+      "date": "February 2020",
+      "short": "Award-winning banking webapp built for VTHacks 7",
+      "status": "complete",
+      "weight": 9,
+      "tags": [
+        "web-dev",
+        "hackathon"
+      ],
+      "tech_used": [
+        "Python",
+        "Flask",
+        "Firebase",
+        "HTML",
+        "CSS",
+        "Nessie API",
+        "MicroStrategies Embedded Analytics"
+      ],
+      "photos": [
+        "/static/projects/spend-good/spend-good.jpg"
+      ],
+      "github": "https://github.com/pasolano/spendgood"
     }
   ],
   "videos": ["<iframe width=\"645\" height=\"481\" src=\"https://www.youtube.com/embed/kNVMfhi58ac\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"],
