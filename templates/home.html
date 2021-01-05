@@ -20,20 +20,21 @@
                 <div class="terminal">
                     <div class="window-title">
                         <div class="win-buttons">
-                            <a id="close" class="button" href="#"></a>
-                            <a id="min" class="button" href="#"></a>
-                            <a id="max" class="button" href="#"></a>
+                            <a id="close" class="button" href="javascript:$('.terminal').hide();$('#terminal-logo').show()"></a>
+                            <a id="min" class="button" href="javascript:$('.message').hide();$('.terminal').css('height', '30px')"></a>
+                            <a id="max" class="button" href="javascript:$('.message').show();$('.terminal').css('height', '260px')"></a>
                         </div>
                         <span class="title">Terminal</span>
                     </div>
                     <div class="message">
                         <span class='prompt'>
-                            <span class='user'>pablo</span><span class="at">@</span><span class="path">/home/pasolano/</span><span style="font-size:14.4px">></span><span class="caret" style="font-size:12.96px">$&nbsp;</span></span><span class="typed"></span>
-                        <form action="{{ url_for('terminal_input') }}" method="post"><span style="font-size:14.4px">></span><span class="caret" style="font-size:12.96px">$&nbsp;</span><input style="font-family:Source Code Pro, monospace;font-size:14.4px;color:rgba(255, 255, 255, 0.75)" autocomplete="off" placeholder="cd projects..." type="text" name="response"/>
+                        <span class='user'>pablo</span><span class="at">@</span><span class="path">/home/pasolano/</span><span class="greater-than">></span><span class="dollar">$&nbsp;</span></span><span class="typed"></span>
+                        <form action="{{ url_for('terminal_input') }}" method="post"><span class="greater-than">></span><span class="dollar">$&nbsp;</span><input autocomplete="off" spellcheck="false" placeholder="cd projects..." type="text" name="response"/>
                         </form>
                     </div>
                 </div>
             </div>
+            <button id="terminal-logo" onclick="$('#terminal-logo').hide();$('.terminal').show()"></button>
         </section>
     </div>
     <div class="wrapper scroll-wrapper">

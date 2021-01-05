@@ -149,6 +149,19 @@ ul li a {
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
   margin: auto;
 }
+#terminal #terminal-logo {
+  background-size: 130px 130px;
+  height: 130px;
+  width: 130px;
+  background-image: url("/static/images/terminal_logo.png");
+  background-color: transparent;
+  outline: none;
+  border-style: hidden;
+  position: relative;
+  display: none;
+  top: auto;
+  left: 50%;
+}
 #terminal .terminal .window-title {
   background: linear-gradient(top, #dedede, #c0c0c0);
   width: calc(100% - 16px);
@@ -215,10 +228,14 @@ ul li a {
   letter-spacing: 0.002em;
   padding-right: 2px;
 }
-#terminal .terminal .caret {
-  color: #50cd70;
+#terminal .terminal .greater-than {
+  font-size: 14.4px;
 }
-#terminal .message input {
+#terminal .terminal .dollar {
+  color: #50cd70;
+  font-size: 12.96px;
+}
+#terminal .message {
   position: relative;
   color: rgba(255, 255, 255, 0.75);
   font-family: "Source Code Pro", monospace;
@@ -244,9 +261,8 @@ ul li a {
   outline: none;
   caret-color: #50cd70;
   font-family: "Source Code Pro", monospace;
-}
-#terminal .message form input:focus {
-  color: rgba(255, 255, 255, 0.75);
+  font-size: 14.4px;
+  color:rgba(255, 255, 255, 0.75);
 }
 #terminal .message .typed-cursor {
   color: rgba(255, 255, 255, 0.9);
