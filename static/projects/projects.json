@@ -17,7 +17,7 @@
         "Flask"
       ],
       "photos": [
-        "/static/projects/pablo.codes/pablo.codes.png"
+        "/static/projects/pablo.codes/img-1.png"
       ],
       "github": "https://github.com/pasolano/pablo-codes"
     },
@@ -30,7 +30,9 @@
       "weight": 9,
       "tags": [
         "web-dev",
-        "hackathon"
+        "hackathon",
+        "team",
+        "presented"
       ],
       "tech_used": [
         "Python",
@@ -42,9 +44,35 @@
         "MicroStrategies Embedded Analytics"
       ],
       "photos": [
-        "/static/projects/spend-good/spend-good.jpg"
+        "/static/projects/spend-good/img-1.jpg"
       ],
       "github": "https://github.com/pasolano/spendgood"
+    },
+    {
+      "name": "LISTener",
+      "link": "listener",
+      "date": "July 2018",
+      "short": "Shopping list app that reminds the user when it's time to repurchase a product",
+      "status": "complete",
+      "weight": 4,
+      "tags": [
+        "web-dev",
+        "team",
+        "presented"
+      ],
+      "tech_used": [
+        "Python",
+        "JavaScript",
+        "Database",
+        "Jinja2 and WebApp2",
+        "Google Cloud Platform",
+        "HTML",
+        "CSS"
+      ],
+      "photos": [
+        "/static/projects/listener/img-1.jpg"
+      ],
+      "github": "https://github.com/pasolano/cssiproject"
     }
   ],
   "videos": ["<iframe width=\"645\" height=\"481\" src=\"https://www.youtube.com/embed/kNVMfhi58ac\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"],

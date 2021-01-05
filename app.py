@@ -15,7 +15,7 @@ try:
 except:
     print('Tracking ID not set')
 
-page_names = ["home", "projects", "experiences", "playing"]
+page_names = ["home", "projects", "experiences", "playing", "resume"]
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -95,6 +95,10 @@ def project(title):
         selected['description'] = io.open(get_static_file(
             'static/%s/%s/%s.html' % (path, selected['link'], selected['link'])), "r", encoding="utf-8").read()
     return render_template('project.html', project=selected)
+
+@app.route('/resume', methods=['GET', 'POST'])
+def resume():
+    return render_template('resume.html')
 
 @app.errorhandler(404)
 def page_not_found(e):
