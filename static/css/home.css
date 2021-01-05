@@ -218,7 +218,7 @@ ul li a {
 #terminal .terminal .caret {
   color: #50cd70;
 }
-#terminal .message {
+#terminal .message input {
   position: relative;
   color: rgba(255, 255, 255, 0.75);
   font-family: "Source Code Pro", monospace;
@@ -243,6 +243,7 @@ ul li a {
   border: none;
   outline: none;
   caret-color: #50cd70;
+  font-family: "Source Code Pro", monospace;
 }
 #terminal .message form input:focus {
   color: rgba(255, 255, 255, 0.75);

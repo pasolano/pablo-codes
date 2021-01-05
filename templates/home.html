@@ -5,8 +5,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-<link type="text/css" rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
 
 <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
@@ -29,8 +28,8 @@
                     </div>
                     <div class="message">
                         <span class='prompt'>
-                            <span class='user'>pablo</span><span class="at">@</span><span class="path">/home/pasolano/</span>><span class="caret">$</span></span><span class="typed"></span>
-                        <form action="{{ url_for('terminal_input') }}" method="post">><span class="caret">$</span>&nbsp;<input type="text" name="response"/>
+                            <span class='user'>pablo</span><span class="at">@</span><span class="path">/home/pasolano/</span><span style="font-size:14.4px">></span><span class="caret" style="font-size:12.96px">$&nbsp;</span></span><span class="typed"></span>
+                        <form action="{{ url_for('terminal_input') }}" method="post"><span style="font-size:14.4px">></span><span class="caret" style="font-size:12.96px">$&nbsp;</span><input style="font-family:Source Code Pro, monospace;font-size:14.4px;color:rgba(255, 255, 255, 0.75)" autocomplete="off" placeholder="cd projects..." type="text" name="response"/>
                         </form>
                     </div>
                 </div>
