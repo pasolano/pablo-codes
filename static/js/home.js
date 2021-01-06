@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
   /* NOTE: hard-refresh the browser once you've updated this */
   $(".typed").typed({
     strings: [
@@ -25,3 +25,45 @@ $(function() {
   });
   $('.message form').hide()
 });
+
+function close() {
+  $('.terminal').hide();
+  $('#dock').show();
+}
+
+function min() {
+  $('.message').hide();
+  $('.terminal').css('height', '30px');
+}
+
+function max() {
+  $('.message').show();
+  $('.terminal').css('height', '260px');
+}
+
+function openTerminal() {
+  $('#terminal-logo').animate({
+    top: "-=60px"
+  });
+  $('#terminal-logo').animate({
+    top: "+=60px"
+  });
+  $('#terminal-logo').animate({
+    top: "-=60px"
+  });
+  $('#terminal-logo').animate({
+    top: "+=60px"
+  });
+  $('#terminal-logo').animate({
+    top: "-=60px"
+  });
+  $('#terminal-logo').animate({
+    top: "+=60px"
+  });
+  $('#terminal-logo').animate({
+    top: "+=0px"
+  }, 1200, function() {
+    $('#dock').hide();
+    $('.terminal').show();
+  });
+}

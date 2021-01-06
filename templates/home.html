@@ -20,9 +20,9 @@
                 <div class="terminal">
                     <div class="window-title">
                         <div class="win-buttons">
-                            <a id="close" class="button" href="javascript:$('.terminal').hide();$('#terminal-logo').show()"></a>
-                            <a id="min" class="button" href="javascript:$('.message').hide();$('.terminal').css('height', '30px')"></a>
-                            <a id="max" class="button" href="javascript:$('.message').show();$('.terminal').css('height', '260px')"></a>
+                            <a id="close" class="button" href="javascript:close()"></a>
+                            <a id="min" class="button" href="javascript:min()"></a>
+                            <a id="max" class="button" href="javascript:max()"></a>
                         </div>
                         <span class="title">Terminal</span>
                     </div>
@@ -34,7 +34,9 @@
                     </div>
                 </div>
             </div>
-            <button id="terminal-logo" onclick="$('#terminal-logo').hide();$('.terminal').show()"></button>
+            <div id="dock">
+                <button id="terminal-logo" onclick="openTerminal()" style="position:relative"></button>
+            </div>
         </section>
     </div>
     <div class="wrapper scroll-wrapper">

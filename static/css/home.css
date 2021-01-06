@@ -149,18 +149,30 @@ ul li a {
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
   margin: auto;
 }
+#terminal #dock {
+  display: none;
+  background-color: #909397;
+  width: 200px;
+  height: 120px;
+  border-radius: 8px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
+  margin: auto;
+}
 #terminal #terminal-logo {
-  background-size: 130px 130px;
-  height: 130px;
-  width: 130px;
+  background-size: 185px 104px;
+  width: 185px;
+  height: 104px;
   background-image: url("/static/images/terminal_logo.png");
   background-color: transparent;
   outline: none;
   border-style: hidden;
-  position: relative;
-  display: none;
-  top: auto;
+  display: block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
   left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 #terminal .terminal .window-title {
   background: linear-gradient(top, #dedede, #c0c0c0);
