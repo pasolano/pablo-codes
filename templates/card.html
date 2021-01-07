@@ -24,9 +24,9 @@
                 <i class="material-icons right activator">more_vert</i>
             </div>
             <div>
-                <span><a href="/projects/{{project['link']}}">Read More </a>|</span>
+                <span><a href="/projects/{{project['link']}}">Read More </a></span>
                 {% if 'github' in project %}
-                <span><a class="github" href={{project['github']}}> GitHub</a></span>
+                <span>|<a class="github" href={{project['github']}}> GitHub</a></span>
                 {% endif %}
                 {% if 'arxiv' in project %}
                 <span><a class="github" href={{project['arxiv']}}> Arxiv</a></span>

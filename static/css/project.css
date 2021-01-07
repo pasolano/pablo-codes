@@ -26,7 +26,7 @@
 .fixed-wrapper {
     position: fixed;
     right: 50%;
-    top: calc(50% - 275px);
+    top: 0;
     display:flex;
     justify-content:center;
     height: calc(100vh - 60px);
