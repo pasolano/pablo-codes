@@ -18,11 +18,6 @@
         "link": "https://blendogames.com/qc/"
       },
       {
-        "name": "Thirty Flights of Loving",
-        "platform": "PC",
-        "link": "https://blendogames.com/thirtyflightsofloving/"
-      },
-      {
         "name": "Event[0]",
         "platform": "PC",
         "link": "https://event0game.com/"
@@ -163,6 +158,16 @@
         "platform": "PC/Switch",
         "link": "https://hotlinemiami.com/",
         "star": true
+      },
+      {
+        "name": "Thirty Flights of Loving",
+        "platform": "PC",
+        "link": "https://blendogames.com/thirtyflightsofloving/"
+      },
+      {
+        "name": "Gravity Bone",
+        "platform": "PC",
+        "link": "https://blendogames.com/gravitybone/"
       },
       {
         "name": "Undertale",
