@@ -273,7 +273,7 @@ ul li a {
   outline: none;
   caret-color: #50cd70;
   font-family: "Source Code Pro", monospace;
-  font-size: 14.4px;
+  font-size: 90%;
   color:rgba(255, 255, 255, 0.75);
 }
 #terminal .message .typed-cursor {

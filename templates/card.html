@@ -19,17 +19,20 @@
             </div>
             <div>
             <span id="title" class="card-title activator grey-text text-darken-4" title="{{project['name']}}">
-              {{project['name']}}
+              {{project['name'] | safe}}
             </span>
                 <i class="material-icons right activator">more_vert</i>
             </div>
             <div>
-                <span><a href="/projects/{{project['link']}}">Read More</a></span>
+                <span><a href="/projects/{{project['link']}}">Read More </a>|</span>
                 {% if 'github' in project %}
-                <span><a class="github" href={{project['github']}}> | Github</a></span>
+                <span><a class="github" href={{project['github']}}> GitHub</a></span>
                 {% endif %}
                 {% if 'arxiv' in project %}
-                <span><a class="github" href={{project['arxiv']}}> | Arxiv</a></span>
+                <span><a class="github" href={{project['arxiv']}}> Arxiv</a></span>
+                {% endif %}
+                {% if 'gitlab' in project %}
+                <span><a class="github" href={{project['gitlab']}}> GitLab</a></span>
                 {% endif %}
                 {% if 'playstore' in project %}
                 <!--<span><a class="github" href={{project['playstore']}}> | Play Store</a></span>-->

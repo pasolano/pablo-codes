@@ -41,29 +41,23 @@ function max() {
   $('.terminal').css('height', '260px');
 }
 
+function moveLogo(amount) {
+  $('#terminal-logo').animate({
+    top: amount
+  });
+}
+
 function openTerminal() {
-  $('#terminal-logo').animate({
-    top: "-=60px"
-  });
-  $('#terminal-logo').animate({
-    top: "+=60px"
-  });
-  $('#terminal-logo').animate({
-    top: "-=60px"
-  });
-  $('#terminal-logo').animate({
-    top: "+=60px"
-  });
-  $('#terminal-logo').animate({
-    top: "-=60px"
-  });
-  $('#terminal-logo').animate({
-    top: "+=60px"
-  });
+  for (var i = 0; i < 3; i++) {
+    moveLogo("-=60px");
+    moveLogo("+=60px");
+  }
+  // hacky way to delay between bounce animation and opening terminal
   $('#terminal-logo').animate({
     top: "+=0px"
-  }, 1200, function() {
+  }, 800, function() {
     $('#dock').hide();
     $('.terminal').show();
+    max();
   });
 }

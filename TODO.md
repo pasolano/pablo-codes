@@ -1,8 +1,8 @@
 better 404 page
 add projects
  - ~~spend good~~
- - muse
- - maze application
+ - ~~μSE~~
+ - maze application (two repos in gitlab)
  - game with kai
  - sudoku algorithms
  - 141 stuff?
@@ -13,6 +13,16 @@ add projects
  - Visual CVD
  - Google CSSI project
  - dumb little projects on harddrive
+ - derive 
+ - parallel_prog 
+ - type
+ - semantics
+ - gee_parser
+ - dsq - Deque, Stack, Queue
+ - hangman
+ - gregory
+ - SlidingPuzzle
+ - repo_pasolano
 add experiences
  - ~~google cssi~~
  - REACH program
@@ -23,17 +33,18 @@ add experiences
  - 1693 program
  - ACM
  - barbershop/choir/hickneck?
-change reading page to games playing/books reading
-add a viewing window for resume
+~~change reading page to games playing/books reading~~
+~~add a viewing window for resume~~
 terminal
  - ~~add `cd` command to terminal (to change pages)~~
  - add `ls` to view pages
- - make buttons work
+ - ~~make buttons work~~
 change readme
 
 games
  - switch games
- - steam games
+ - ~~steam games~~
+ - ~~epic games store games~~
  - xbox 360 games
  - xbox one games
  - non-steam games
@@ -47,4 +58,5 @@ games
  - Arcade games
  - Flash games
 
- add a "last updated" thing
+ add a "last updated" date
+ ~~add a favicon~~

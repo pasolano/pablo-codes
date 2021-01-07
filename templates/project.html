@@ -58,7 +58,7 @@
 
     <div class="wrapper scroll-wrapper">
         <div class="heading">
-            <div class="title">{{ project['name'] }}</div>
+            <div class="title">{{ project['name'] | safe }}</div>
 
             <div class="date">{{ project['date'] }}</div>
 
@@ -71,9 +71,11 @@
 
             <div class="links">
                 {% if 'github' in project %}
-                <div><a class="github" href={{project['github']}}>Find on Github</a></div>
+                <div><a class="github" href={{project['github']}}>Find on GitHub</a></div>
                 {% elif 'arxiv' in project %}
                 <div><a class="github" href={{project['arxiv']}}>View on Arxiv</a></div>
+                {% elif 'gitlab' in project %}
+                <div><a class="github" href={{project['gitlab']}}>Find on GitLab</a></div>
                 {% elif 'playstore' in project %}
                 <div><a class="github" href={{project['playstore']}}>View on Google Play</a></div>
                 {% endif %}

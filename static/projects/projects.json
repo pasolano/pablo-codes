@@ -73,6 +73,30 @@
         "/static/projects/listener/img-1.jpg"
       ],
       "github": "https://github.com/pasolano/cssiproject"
+    },
+    {
+      "name": "&mu;SE",
+      "link": "muse",
+      "date": "October-November 2020",
+      "short": "A mutation-based soundness evaluation framework which systematically evaluates Android static analysis tools to discover, document, and fix flaws.",
+      "status": "complete",
+      "weight": 7,
+      "tags": [
+        "coursework",
+        "team",
+        "presented"
+      ],
+      "tech_used": [
+        "Java",
+        "GitLab",
+        "Git",
+        "Maven",
+        "CI/CD",
+        "Eclipse"
+      ],
+      "photos": [
+        "/static/projects/muse/img-1.svg"
+      ]
     }
   ],
   "videos": ["<iframe width=\"645\" height=\"481\" src=\"https://www.youtube.com/embed/kNVMfhi58ac\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"],
