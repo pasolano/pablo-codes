@@ -96,7 +96,8 @@
       ],
       "photos": [
         "/static/projects/muse/img-1.svg"
-      ]
+      ],
+      "website": "https://muse-security-evaluation.github.io/"
     }
   ],
   "videos": ["<iframe width=\"645\" height=\"481\" src=\"https://www.youtube.com/embed/kNVMfhi58ac\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"],

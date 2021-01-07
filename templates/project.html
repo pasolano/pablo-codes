@@ -71,12 +71,18 @@
 
             <div class="links">
                 {% if 'github' in project %}
-                <div><a class="github" href={{project['github']}}>Find on GitHub</a></div>
-                {% elif 'arxiv' in project %}
+                <div><a class="github" href={{project['github']}}>View on GitHub</a></div>
+                {% endif %}
+                {% if 'arxiv' in project %}
                 <div><a class="github" href={{project['arxiv']}}>View on Arxiv</a></div>
-                {% elif 'gitlab' in project %}
-                <div><a class="github" href={{project['gitlab']}}>Find on GitLab</a></div>
-                {% elif 'playstore' in project %}
+                {% endif %}
+                {% if 'gitlab' in project %}
+                <div><a class="github" href={{project['gitlab']}}>View on GitLab</a></div>
+                {% endif %}
+                {% if 'website' in project %}
+                <span><a class="github" href={{project['website']}}> View {{project['name'] | safe}}'s website</a></span>
+                {% endif %}
+                {% if 'playstore' in project %}
                 <div><a class="github" href={{project['playstore']}}>View on Google Play</a></div>
                 {% endif %}
             </div>
