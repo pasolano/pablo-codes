@@ -81,7 +81,7 @@ def project(title):
 
     if in_project is None and in_exp is None:
         return render_template('404.html'), 404
-    # fixme: choose the experience one for now, cuz I've done some shite hardcoding here.
+    # fixme: choose the experience one for now, cuz I've done some bad hardcoding here.
     elif in_project is not None and in_exp is not None:
         selected = in_exp
     elif in_project is not None:
@@ -99,6 +99,10 @@ def project(title):
 @app.route('/resume', methods=['GET', 'POST'])
 def resume():
     return render_template('resume.html')
+
+@app.route('/appml', methods=['GET', 'POST'])
+def appml():
+    return render_template('appml.html')
 
 @app.errorhandler(404)
 def page_not_found(e):
