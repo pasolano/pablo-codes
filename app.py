@@ -102,7 +102,13 @@ def resume():
 
 @app.route('/appml', methods=['GET', 'POST'])
 def appml():
-    return render_template('appml.html')
+    informal = []
+    formal = []
+    for filename in os.listdir('static/files/md/informal'):
+        informal.append(filename)
+    for filename in os.listdir('static/files/md/formal'):
+        formal.append(filename)
+    return render_template('appml.html', informal=informal, formal=formal)
 
 @app.errorhandler(404)
 def page_not_found(e):
