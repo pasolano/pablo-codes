@@ -1,5 +1,5 @@
 {% set cut = filename.split('/') %}
-{% set title = cut[(cut|length)-1] %}
+{% set title = (' ').join(cut[(cut|length)-1].split('-'))[:-3].title() %}
 <button type="button" class="collapsible">{{ title }}</button>
 <div class="content">
   <zero-md src="{{ filename }}"></zero-md> <!-- doesn't specify folder -->
