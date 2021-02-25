@@ -1,5 +1,6 @@
-{% set title = (' ').join(filename.split('-')).title()[:-3] %}
+{% set cut = filename.split('/') %}
+{% set title = cut[(cut|length)-1] %}
 <button type="button" class="collapsible">{{ title }}</button>
 <div class="content">
-  <zero-md src="{{ url_for('static', filename = 'files/md/' + type + '/' + filename) }}"></zero-md> <!-- doesn't specify folder -->
+  <zero-md src="{{ filename }}"></zero-md> <!-- doesn't specify folder -->
 </div>

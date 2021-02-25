@@ -28,7 +28,8 @@
     {% set type = "informal" %}
     {% for filename in informal %}
         {% include "dropdown.html" %}
-    {% endfor %}    
+    {% endfor %}
+    <p>{{ test }}</p>
 </div>
 
 <script src="{{ url_for('static', filename='js/dropdown.js') }}"></script>

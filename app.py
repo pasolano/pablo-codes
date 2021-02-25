@@ -3,6 +3,7 @@ import io
 import json
 import os
 import re
+import requests
 
 from flask import Flask, render_template, request, redirect, Response, send_file, abort, url_for
 from flask_talisman import Talisman
@@ -102,13 +103,20 @@ def resume():
 
 @app.route('/appml', methods=['GET', 'POST'])
 def appml():
-    informal = []
-    formal = []
-    for filename in os.listdir('static/files/md/informal'):
-        informal.append(filename)
-    for filename in os.listdir('static/files/md/formal'):
-        formal.append(filename)
-    return render_template('appml.html', informal=informal, formal=formal)
+    informal_list = []
+    formal_list = []
+    
+    informal = requests.get(url = 'https://api.github.com/repos/pasolano/appml/contents/informal', headers={'Accept': 'application/vnd.github.v3+json'})
+    informal = informal.json()
+
+    formal = requests.get(url = 'https://api.github.com/repos/pasolano/appml/contents/formal', headers={'Accept': 'application/vnd.github.v3+json'})
+    formal = formal.json()
+
+    for item in informal:
+        informal_list.append(item["download_url"])
+    for item in formal:
+        formal_list.append(item["download_url"])
+    return render_template('appml.html', informal=informal_list, formal=formal_list)
 
 @app.errorhandler(404)
 def page_not_found(e):
