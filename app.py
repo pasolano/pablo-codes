@@ -1,3 +1,4 @@
+import collections
 import datetime
 import io
 import json
@@ -116,6 +117,7 @@ def appml():
         informal_list.append(item["download_url"])
     for item in formal:
         formal_list.append(item["download_url"])
+    informal_list = convert_dates(informal_list)
     return render_template('appml.html', informal=informal_list, formal=formal_list)
 
 @app.errorhandler(404)
@@ -130,6 +132,34 @@ def get_static_file(path):
 
 def get_static_json(path):
     return json.load(open(get_static_file(path)))
+
+def convert_dates(filenames):
+    dates = {}
+    for filename in filenames:
+        parts_of_path = filename.split('/')
+        info = parts_of_path[len(parts_of_path)-1][:-3].split('-')
+        info[0] = info[0].title()
+        if info[0] == 'Feb' or info[0] == 'February':
+            month = 200
+        elif info[0] == 'Mar' or info[0] == 'March':
+            month = 300
+        elif info[0] == 'Apr' or info[0] == 'April':
+            month = 400
+        elif info[0] == 'May':
+            month = 500
+        else:
+            month = 0
+        if len(info) == 2:
+            date = month + int(info[1])
+        else:
+            date = month
+        dates[date] = filename
+    od = collections.OrderedDict(sorted(dates.items(), reverse=True))
+    new_filename_order = []
+    for value in od.values():
+        new_filename_order.append(value)
+    return new_filename_order
+
 
 if __name__ == "__main__":
     print("running py app")
