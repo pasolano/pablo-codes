@@ -114,7 +114,11 @@ def appml():
     formal = formal.json()
 
     for item in informal:
-        informal_list.append(item["download_url"])
+        try:
+            informal_list.append(item["download_url"])
+        except:
+            print(item["download_url"])
+            informal_list.append(item["download_url"])
     for item in formal:
         formal_list.append(item["download_url"])
     informal_list = convert_dates(informal_list)
