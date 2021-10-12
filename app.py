@@ -17,7 +17,7 @@ try:
 except:
     print('Tracking ID not set')
 
-page_names = ["home", "projects", "experiences", "playing", "resume", "appml"]
+page_names = ["home", "projects", "experiences", "playing", "resume"]
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
