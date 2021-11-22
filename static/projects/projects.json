@@ -165,6 +165,33 @@
         "/static/projects/pong/pong.jpeg"
       ],
       "github": "https://github.com/pasolano/pong"
+    },
+    {
+      "name": "go with the flow.",
+      "link": "go-with-the-flow",
+      "date": "Sept 2021",
+      "short": "An IoT device to make menstrual cycle tracking easier",
+      "status": "ongoing",
+      "weight": 7,
+      "tags": [
+        "hackathon",
+        "IoT",
+        "social good"
+      ],
+      "tech_used": [
+        "Python",
+        "Raspberry Pi",
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Flask",
+        "Git"
+      ],
+      "photos": [
+        "/static/projects/go-with-the-flow/logo.png"
+      ],
+      "website": "https://devpost.com/software/hygeine-forward",
+      "videos": ["<iframe width=\"500\" height=\"481\" src=\"https://www.youtube.com/embed/s-Y4aAzqj28\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"]
     }
   ],
   "extra_example_tasks_below": "",

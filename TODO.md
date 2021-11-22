@@ -5,12 +5,11 @@ add projects
  - ~~Following the Bell~~
  - Dialogue Tool?
  - go with the flow.
- - COVID Champion
+ - ~~COVID Champion~~
  - XR Research
- - Pong
+ - ~~Pong~~
  - maze application (two repos in gitlab)
  - shacks? (scambot, 1x1 sudoku)
- - game with kai
  - sudoku algorithms
  - 141 stuff?
  - davis graphics spheres
