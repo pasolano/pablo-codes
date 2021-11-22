@@ -2,7 +2,8 @@ better 404 page
 add projects
  - ~~spend good~~
  - ~~μSE~~
- - Following the Bell
+ - ~~Following the Bell~~
+ - Dialogue Tool?
  - go with the flow.
  - COVID Champion
  - XR Research

@@ -3,7 +3,7 @@
     {
       "name": "pablo.codes",
       "link": "pablo.codes",
-      "date": "Oct 2020 - Ongoing",
+      "date": "Oct 2020 - Present",
       "short": "Personal website for coding achievements",
       "status": "ongoing",
       "weight": 2,
@@ -77,7 +77,7 @@
     {
       "name": "&mu;SE",
       "link": "muse",
-      "date": "October-November 2020",
+      "date": "October - November 2020",
       "short": "A mutation-based soundness evaluation framework which systematically evaluates Android static analysis tools to discover, document, and fix flaws.",
       "status": "complete",
       "weight": 7,
@@ -98,6 +98,50 @@
         "/static/projects/muse/img-1.svg"
       ],
       "website": "https://muse-security-evaluation.github.io/"
+    },
+    {
+      "name": "Following the Bell",
+      "link": "following-the-bell",
+      "date": "Jan 2021 - Present",
+      "short": "An educational game on the problem of human trafficking",
+      "status": "ongoing",
+      "weight": 10,
+      "tags": [
+        "team",
+        "long-term",
+        "internship"
+      ],
+      "tech_used": [
+        "Godot",
+        "GDScript",
+        "Git"
+      ],
+      "photos": [
+        "/static/projects/following-the-bell/minimap.png"
+      ],
+      "website": "https://www.gfems.org/"
+    },
+    {
+      "name": "COVID Champion",
+      "link": "covid-champion",
+      "date": "Feb - May 2021",
+      "short": "A tower defense game inspired by the COVID pandemic",
+      "status": "complete",
+      "weight": 9,
+      "tags": [
+        "team",
+        "leadership",
+        "coursework"
+      ],
+      "tech_used": [
+        "SFML",
+        "C++",
+        "Git"
+      ],
+      "photos": [
+        "/static/projects/covid-champion/MainMenuSprite.png"
+      ],
+      "website": "https://github.com/pasolano/gamedes"
     }
   ],
   "extra_example_tasks_below": "",
