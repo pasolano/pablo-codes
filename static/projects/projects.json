@@ -107,6 +107,7 @@
       "status": "ongoing",
       "weight": 10,
       "tags": [
+        "game",
         "team",
         "long-term",
         "internship"
@@ -129,6 +130,7 @@
       "status": "complete",
       "weight": 9,
       "tags": [
+        "game",
         "team",
         "leadership",
         "coursework"
