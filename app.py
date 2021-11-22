@@ -1,6 +1,7 @@
 import collections
 import datetime
 import io
+from io import BytesIO
 import json
 import os
 import re
@@ -8,6 +9,8 @@ import requests
 
 from flask import Flask, render_template, request, redirect, Response, send_file, abort, url_for
 from flask_talisman import Talisman
+
+from PyPDF2 import PdfFileWriter, PdfFileReader
 
 app = Flask(__name__)
 Talisman(app, content_security_policy=None)
@@ -100,6 +103,51 @@ def project(title):
 
 @app.route('/resume', methods=['GET', 'POST'])
 def resume():
+    # create session to save cookies
+    # h = {'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    #     'accept-encoding': 'gzip, deflate, br',
+    #     'accept-language': 'en-US,en;q=0.9',
+    #     'cache-control': 'max-age=0',
+    #     'dnt': '1',
+    #     'if-modified-since': 'Mon, 22 Nov 2021 03:03:20 GMT',
+    #     'if-none-match': '\"619b0879-f7ec\"',
+    #     'sec-fetch-dest': 'document',
+    #     'sec-fetch-mode': 'navigate',
+    #     'sec-fetch-site': 'none',
+    #     'sec-fetch-user': '?1',
+    #     'sec-gpc': '1',
+    #     'upgrade-insecure-requests': '1',
+    #     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'}
+    # s = requests.Session()
+
+    # # get viewing rights cookies by visiting "view if has link" URL
+    # view_url = "https://www.overleaf.com/read/dkcmcffhxvkb"
+    # response = s.get(view_url)
+
+    # # save pdf
+    # # url = "https://www.overleaf.com/download/project/5f8d15331d7ba30001fb4566/output/output.pdf?compileGroup=standard"
+    
+    # writer = PdfFileWriter()
+
+    # # response = s.get(url)
+    # # req = response.request
+    # # print('{}\n{}\r\n{}\r\n\r\n{}'.format(
+    # #     '-----------START-----------',
+    # #     req.method + ' ' + req.url,
+    # #     '\r\n'.join('{}: {}'.format(k, v) for k, v in req.headers.items()),
+    # #     req.body,
+    # # ))
+    # remoteFile = response.content
+    # # print("\n\n", remoteFile, "\n\n")
+    # memoryFile = BytesIO(remoteFile)
+    # pdfFile = PdfFileReader(memoryFile)
+
+    # currentPage = pdfFile.getPage(0)
+    # writer.addPage(currentPage)
+
+    # outputStream = open("/static/files/Pablo_Solano_Resume.pdf","wb")
+    # writer.write(outputStream)
+    # outputStream.close()
     return render_template('resume.html')
 
 @app.route('/appml', methods=['GET', 'POST'])
