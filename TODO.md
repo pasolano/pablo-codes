@@ -3,8 +3,8 @@ add projects
  - ~~spend good~~
  - ~~μSE~~
  - ~~Following the Bell~~
- - Dialogue Tool?
- - go with the flow.
+ - Dialogue Tool for GFEMS game
+ - ~~go with the flow.~~
  - ~~COVID Champion~~
  - XR Research
  - ~~Pong~~
