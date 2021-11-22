@@ -144,6 +144,27 @@
         "/static/projects/covid-champion/MainMenuSprite.png"
       ],
       "github": "https://github.com/pasolano/gamedes"
+    },
+    {
+      "name": "Pong",
+      "link": "pong",
+      "date": "Feb 2021",
+      "short": "A remake of Pong with some new twists",
+      "status": "complete",
+      "weight": 8,
+      "tags": [
+        "game",
+        "coursework"
+      ],
+      "tech_used": [
+        "SFML",
+        "C++",
+        "Git"
+      ],
+      "photos": [
+        "/static/projects/pong/pong.jpeg"
+      ],
+      "github": "https://github.com/pasolano/pong"
     }
   ],
   "extra_example_tasks_below": "",
