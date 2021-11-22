@@ -46,7 +46,8 @@
       "photos": [
         "/static/projects/spend-good/img-1.jpg"
       ],
-      "github": "https://github.com/pasolano/spendgood"
+      "github": "https://github.com/pasolano/spendgood",
+      "website": "https://devpost.com/software/vthacks7"
     },
     {
       "name": "LISTener",
@@ -190,6 +191,7 @@
       "photos": [
         "/static/projects/go-with-the-flow/logo.png"
       ],
+      "github": "https://github.com/pasolano/ramhacks2021",
       "website": "https://devpost.com/software/hygeine-forward",
       "videos": ["<iframe width=\"500\" height=\"481\" src=\"https://www.youtube.com/embed/s-Y4aAzqj28\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"]
     }
