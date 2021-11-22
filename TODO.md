@@ -2,7 +2,13 @@ better 404 page
 add projects
  - ~~spend good~~
  - ~~μSE~~
+ - Following the Bell
+ - go with the flow.
+ - COVID Champion
+ - XR Research
+ - Pong
  - maze application (two repos in gitlab)
+ - shacks? (scambot, 1x1 sudoku)
  - game with kai
  - sudoku algorithms
  - 141 stuff?
@@ -25,6 +31,7 @@ add projects
  - repo_pasolano
 add experiences
  - ~~google cssi~~
+ - RamHacks
  - REACH program
  - fellow for ec
  - student at w&m
