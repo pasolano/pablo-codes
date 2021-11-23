@@ -6,7 +6,7 @@ add projects
  - Dialogue Tool for GFEMS game
  - ~~go with the flow.~~
  - ~~COVID Champion~~
- - XR Research
+ - ~~Throw Lab~~
  - ~~Pong~~
  - maze application (two repos in gitlab)
  - shacks? (scambot, 1x1 sudoku)
