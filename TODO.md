@@ -17,7 +17,7 @@ add projects
  - data structures
  - check lab storage
  - Visual CVD
- - Google CSSI project
+ - ~~Google CSSI project~~
  - dumb little projects on harddrive
  - derive 
  - parallel_prog 
