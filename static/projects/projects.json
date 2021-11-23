@@ -194,6 +194,27 @@
       "github": "https://github.com/pasolano/ramhacks2021",
       "website": "https://devpost.com/software/hygeine-forward",
       "videos": ["<iframe width=\"500\" height=\"481\" src=\"https://www.youtube.com/embed/s-Y4aAzqj28\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"]
+    },
+    {
+      "name": "Throw Lab",
+      "link": "throw-lab",
+      "date": "Jun - Sept 2021",
+      "short": "VR game to investigate how throwing in VR can be improved",
+      "status": "complete",
+      "weight": 8,
+      "tags": [
+        "VR",
+        "XR",
+        "Research"
+      ],
+      "tech_used": [
+        "Unity",
+        "C#",
+        "Oculus"
+      ],
+      "photos": ["/static/projects/throw-lab/throw-lab.webp"],
+      "github": "https://github.com/pasolano/throw_lab",
+      "website": "http://humansmove.org/"
     }
   ],
   "extra_example_tasks_below": "",

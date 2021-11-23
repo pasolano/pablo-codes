@@ -29,6 +29,11 @@ add projects
  - gregory
  - SlidingPuzzle
  - repo_pasolano
+ - web development site
+ - mobile app security app
+ - EC app and tools
+ - GIS?
+ - databases hw?
 add experiences
  - ~~google cssi~~
  - RamHacks
