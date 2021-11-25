@@ -1,4 +1,3 @@
-better 404 page
 add projects
  - ~~spend good~~
  - ~~μSE~~
