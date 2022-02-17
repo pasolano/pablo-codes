@@ -20,7 +20,7 @@ try:
 except:
     print('Tracking ID not set')
 
-page_names = ["home", "projects", "experiences", "playing", "resume", "appml"]
+page_names = ["home", "projects", "experiences", "playing", "resume", "appml", "anim"]
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -67,7 +67,6 @@ def experiences():
     experiences = get_static_json("static/experiences/experiences.json")['experiences']
     experiences.sort(key=order_projects_by_weight, reverse=True)
     return render_template('projects.html', projects=experiences, tag=None)
-
 
 def order_projects_by_weight(projects):
     try:
@@ -167,6 +166,11 @@ def appml():
         formal_list.append(item["download_url"])
     informal_list = convert_dates(informal_list)
     return render_template('appml.html', informal=informal_list, formal=formal_list)
+
+@app.route('/anim', methods=['GET', 'POST'])
+def anim():
+    return render_template('anim.html')
+
 
 @app.errorhandler(404)
 def page_not_found(e):

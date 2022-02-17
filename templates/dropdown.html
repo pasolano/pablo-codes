@@ -1,6 +1,23 @@
-{% set cut = filename.split('/') %}
-{% set title = (' ').join(cut[(cut|length)-1].split('-'))[:-3].title() %}
+{% if parse_mode == 1 %}
+  {% set cut = filename.split('/') %}
+  {% set title = (' ').join(cut[(cut|length)-1].split('-'))[:-3].title() %}
+{% elif parse_mode == 2 %}
+  {% set title = "Project " + filename %}
+{% endif %}
+
+<style>
+  iframe {
+      display: block;
+      margin-left: auto;
+      margin-right: auto
+  }
+</style>
+
 <button type="button" class="collapsible">{{ title }}</button>
 <div class="content">
-  <zero-md src="{{ filename }}"></zero-md> <!-- doesn't specify folder -->
+  {% if markdown %}
+    <zero-md src="{{ filename }}"></zero-md> <!-- doesn't specify folder -->
+  {% else %}
+    {% include "anim/proj" + filename + ".html" %}
+  {% endif %}
 </div>
