@@ -15,8 +15,10 @@
 <div class="container">
     {% set parse_mode = 2 %}
     <h1>Projects</h1>
-    {% set filename = "1" %}
-    {% include "dropdown.html" %}
+    {% for f in files %}
+        {% set filename = f.split('.')[0][-1] %}
+        {% include "dropdown.html" %}
+    {% endfor %}
 </div>
 
 <script src="{{ url_for('static', filename='js/dropdown.js') }}"></script>

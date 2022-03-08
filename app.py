@@ -169,7 +169,11 @@ def appml():
 
 @app.route('/anim', methods=['GET', 'POST'])
 def anim():
-    return render_template('anim.html')
+    site_root = os.path.realpath(os.path.dirname(__file__))
+    f = os.listdir(os.path.join(site_root, "templates/anim"))
+    two_wf = os.listdir(os.path.join(site_root, "static/images/maya/proj2/wf"))
+    two_s = os.listdir(os.path.join(site_root, "static/images/maya/proj2/s"))
+    return render_template('anim.html', files=f, wf=two_wf, s=two_s)
 
 
 @app.errorhandler(404)

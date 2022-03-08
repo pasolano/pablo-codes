@@ -71,3 +71,5 @@ games
 
  add a "last updated" date
  ~~add a favicon~~
+
+ learn about static directories in production
