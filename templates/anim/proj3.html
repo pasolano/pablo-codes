@@ -1,49 +1,95 @@
 <h1>Pablo Solano | Mar 24th, 2022</h1>
 
-<h5>Source Images:</h5>
-<p>I found an ideal replica of the chest from <i>Legend of Zelda</i> on Reddit, which then led me to an image from the store's page. This was interesting, as the two chests differed in quality quite a bit. Photos of the interior were also available, but I opted to only replicate the ouside of the chest, as the inside did not meet the project specifications (ie. being full of treasure).</p>
-<a href="https://www.reddit.com/r/zelda/comments/mpse6j/other_i_bought_a_treasure_chest_with_rupees/"><img src="https://preview.redd.it/8kpomo81ius61.jpg?width=960&crop=smart&auto=webp&s=9779b0d7bb253c08490e8daec5202f829af3a57d"></img></a>
-<a href="https://www.gamersheek.co.uk/collectibles-c822/props-replicas-c956/gaming-c958/the-legend-of-zelda-rupee-paperweight-treasure-chest-p11164"><img src="{{ url_for('static', filename='images/store_chest.PNG') }}"></img></a>
-
-<h5>Wireframe images</h5>
-<p>I couldn't decide if black or white was better for wireframe, so I took screenshots with both. I went with grey as an in-between for the video.</p>
 <div>
-    <h5>Wireframe</h5>
-    {% for f in wf %}
-        <img src="{{ url_for('static', filename='images/maya/proj2/wf/' + f) }}"></img>
-    {% endfor %}
+    <!-- Storyboards/Description -->
+    <h2>Storyboard:</h2>
+    <img width="850" height="1100" src="{{ url_for('static', filename='images/maya/proj3/storyboard_3.jpg') }}"></img>
+    <br/>
+    <h2>Description:</h2>
+    <p>
+        Our hero Ball has finally arrived at the fabled staircase -- according to the legends, it is one of the final challenges standing between him and riches beyond his wildest dreams. He looks up and notices just how tall the staircase is. After hesitating for just a moment, our hero starts his journey with perhaps a <i>bit</i> too much confidence. After bouncing up a few stairs rather quickly, he pays the price for his hubris and collides against a stair, sending him flying back to where he started. Undeterred, he approaches the staircase once more and prepares to make a powerful and calculated leap. He uses his forward momentum to carry himself up the stairs, more slowly and deliberately before. He is almost at the summit when he realizes his lungs are burning as a result of his incredible effort. As he rests, he notices that an easier option was right next to him the whole time: a ramp. If that late realization was not frustrating enough for our poor hero, he finds himself just in time to watch his rival explorer Ballete rolling up the summit. Exasperated, Ball fully deflates.
+    </p>
 </div>
 
 <div>
-    <h5>Smooth Shading</h5>
-    {% for f in s %}
-        <img src="{{ url_for('static', filename='images/maya/proj2/s/' + f) }}"></img>
-    {% endfor %}
-</div>
+    <!-- Disney Principles images -->
+    <h2>Disney Principles:</h2>
+    As part of this project, I tried to employ as many of the Disney principles of animation as I could.
 
-<p>As every good treaure chest does, my chest contains treasure. A hoard of a soon-to-be-discontinued currency, and a key to another treasure chest! I tried four other assets before settling on these, making that decision after one completely filled the scene with keyframes and (probably) caused some irreversible side-effects.</p>
+    <ul>
+        <li>I also followed the guidance of the arc principle. When the ball jumps up the stairs, it follows a clear arc -- it would be blatantly obvious if it went in a straight line toward the summit of its jump. Instead, the ball's position was keyframed to angle around that point as if the ball were fighting against gravity. I also added stretch distortions facing the direction the ball was jumping. I would also like to mention here that I used the stretch distortions very carefully -- they are at their longest when they are nearest to the ground, and the ball stretches more when it falls from a higher place.</li>
+        <li>As mentioned, I also used followed the "Squash and Stretch" principle. The ball stretches and squashes when getting ready to jump, land, and to highlight the speed at which it is moving. I also employed it to give the ball some character, having the ball look up at the staircase at the beginning of my animation, catch its breath near the top of the stairs, and squash to show its disappointment at being beaten by Ballette.</li>
+        <li>I started making my animation with pose-to-pose. I did the basic key frames for climbing the staircase the first and second time, then added the inbetweens so that the ball would travel in a smooth arc</li>
+    </ul>
+
+    While those are some of the most obvious principles employed to me, I followed the guidance of several others:
+    <ul>
+        <li>I employed anticipation when the ball was getting ready to climb the stairs the second time -- you can tell it is really winding up for a large jump</li>
+        <li>I used exaggeration in some parts. I believe it's most noticeable with the stretches that make the ball look much more lively and speedy while it is jumping</li>
+        <li>One principle that can easily be seen is "Ease In or Out," which states that animated life should not do every action in constant time. For instance, people don't reach and grab objects in one go: their hands start slowly, then accelerate towards an object, and slow as they get closer to it. I used the graph editor to adjust the ball's transformation curves appropriately. The ball decelerates the closer it gets to the climax of its jump, before speeding up as it goes toward the ground again. However, the curve where the ball meets the floor is a special case: it is fastest when leaving the ground, so I made those curves very sharp.</li>
+        <li>I gave my ball some extra personality. From looking around, to looking tired, to looking crushed at the end of the short, Ball feels alive to me</li>
+        <li>Staging was particularly difficult, as the scene is very vertical and horizontal. I used camera movement and pose-to-pose blocking early on to ensure the scene looked right</li>
+        <li>Finally, I think I gave my Ball some appeal with all of these other principles working together to make him a likeable character, even with the short amount of screentime allotted to him.</li>
+    </ul>
+
+    I took screenshots at several points during the creation of this animation:
+    <div>
+        <img width="850" src="{{ url_for('static', filename='images/maya/proj3/some_squash.PNG') }}"></img>
+        <br/>
+        Early work using squash on the ball
+    </div>
+    <div>
+        <img width="850" src="{{ url_for('static', filename='images/maya/proj3/tangents.PNG') }}"></img>
+        <br/>
+        Refining the tangents to make the arcs more pronounced
+    </div>
+    <div>
+        <img width="850" src="{{ url_for('static', filename='images/maya/proj3/blocking.PNG') }}"></img>
+        <br/>
+        Using pose-to-pose animation to work out the blocking for my animation, leading to the final staging
+    </div>
+
+    For reference, here are some images of the graphs now:
+    <div>
+        <img width="850" src="{{ url_for('static', filename='images/maya/proj3/transform_graph.PNG') }}"></img>
+        <br/>
+        Transform
+    </div>
+    <div>
+        <img width="850" src="{{ url_for('static', filename='images/maya/proj3/squash_graph.PNG') }}"></img>
+        <br/>
+        Squash
+    </div>
+</div>
 
 <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/bYNXDHNkhVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    Let us now compare my work against professionals (a fair fight I am sure):
+    <div>
+        <iframe src="https://giphy.com/embed/26BRxWm2c7wWLnMbu" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/alice-in-wonderland-tweedle-dee-dum-26BRxWm2c7wWLnMbu">via GIPHY</a>
+        Rotund Tweedledee and Tweedledum squashing and stretching
+    </div>
+    <div>
+        <iframe src="https://giphy.com/embed/7kHBXCO6Zckak" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/disney-pocahontas-walt-disney-animation-studios-7kHBXCO6Zckak">via GIPHY</a>
+        An example of an arc from <i>Pocahontas</i>
+    </div>
+    <div>
+        <iframe src="https://giphy.com/embed/RLVHPJJv7jY1q" width="480" height="357" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/disney-classic-cinderella-walt-disney-pictures-RLVHPJJv7jY1q">via GIPHY</a>
+        This is an example of an animation that would not benefit from pose-to-pose animation.
+    </div>
 </div>
 
 <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/SZ31xhq5v2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- Links -->
+    Finally, here is my final animation
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oT1_hEnQL8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
-<p>This project was very challenging. Some things I know I could have done better, and other things could have been glitches as far as I know (for instance, at one point faces were spontaneously extruding without and keyframes being set). At the end of the day, I am satisfied with how my first model turned out. Thank you for reading!</p>
 
 <div>
     Sources:
     <ul>
-        <li><a href="https://www.thingiverse.com/thing:3135523/files">Only free hook latch on the internet, thank you</a></li>
-        <li><a href="https://ambientcg.com/view?id=Metal036">Latch and pedestal texture</a></li>
-        <li><a href="https://skfb.ly/6DDsM">"Penny (Coin)" by Anthony Yanez is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/)</a></li>
-        <li><a href="https://www.turbosquid.com/3d-models/free-key-3d-model/1082413#">Key model</a></li>
-        <li><a href="https://ambientcg.com/view?id=Metal007">Texture used for decorative bumps</a></li>
-        <li><a href="https://ambientcg.com/view?id=Metal011">Texture used for metallic edges</a></li>
-        <li><a href="https://ambientcg.com/view?id=Wood066">Main chest texture</a></li>
-        <li>The reference images at the top of this page also have links to their sources embedded within them</li>
-        <li>Finally, thank you to the 100 or more strangers who gave me the tips necessary to complete this project</li>
+        <li><a href="https://www.texturecan.com/details/372/">Material for plastic ball</a></li>
+        <li><a href="https://ambientcg.com/">Materials for grass and concrete</a></li>
+        <li><a href="https://www.vectornator.io/blog/12-principles-of-animation">Example Disney animations</a></li>
     </ul>
+    Thank you!
 </div>
