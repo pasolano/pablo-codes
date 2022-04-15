@@ -2,41 +2,50 @@
 
 <div style="text-align: center;">
     <!-- Links to project -->
-    Playblast:
+    Textured Playblast:
     <iframe width="560" height="315" src="https://www.youtube.com/embed/0uQ20c6-L4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <br/>
     <br/>
     Arnold (ironically, the render was the quick part of this process):
     <iframe width="560" height="315" src="https://www.youtube.com/embed/zbVaNM0aOOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<br/>
+<br/>
 
-<div>
+<div style="text-align: center;">
     <!-- Storyboards -->
     <h2>Storyboard:</h2>
     <img width="850" height="1100" src="{{ url_for('static', filename='images/maya/proj4/storyboard.jpg') }}"></img>
     <br/>
 </div>
+<br/>
+<br/>
 
 <div>
     <div style="text-align: center;">
-    I took screenshots at several points during the creation of this animation:
+    Screenshots of dynamic elements:
         <div>
+            1) Platforms (passive rigid bodies) guide the ball down with the help of a gravity effect
             <img width="850" src="{{ url_for('static', filename='images/maya/proj4/part1.PNG') }}"></img>
         </div>
         <br/>
         <div>
+            2) Dominoes (active rigid bodies) on a platform (passive rigid body) get hit by the ball, knocking each other over
             <img width="850" src="{{ url_for('static', filename='images/maya/proj4/part2.PNG') }}"></img>
         </div>
         <br/>
         <div>
+            3/4) Domino lands on seesaw catapult (hinge constraint), launching a ball attached to a pendulum (pin constraint). The string is aimed at the ball using an aim constraint.
             <img width="850" src="{{ url_for('static', filename='images/maya/proj4/part3.PNG') }}"></img>
         </div>
         <br/>
         <div>
+            5) Ball hits a button (weak spring constraint)
             <img width="850" src="{{ url_for('static', filename='images/maya/proj4/part4.PNG') }}"></img>
         </div>
         <br/>
         <div>
+            6) Fireworks explode (a dynamic effect)
             <img width="850" src="{{ url_for('static', filename='images/maya/proj4/part5.PNG') }}"></img>
         </div>
         <br/><br/>
@@ -46,8 +55,11 @@
 
 <div>
     Sources:
-    Dark Marble: https://ambientcg.com/view?id=Marble016
-    Gold Metal: https://ambientcg.com/view?id=Metal007
-    Wood: https://ambientcg.com/view?id=Wood066
+    <ul>
+        <li><a href="https://ambientcg.com/view?id=Marble016">Black Marble</a></li>
+        <li><a href="https://ambientcg.com/view?id=Marble005">White Marble</a></li>
+        <li><a href="https://ambientcg.com/view?id=Metal007">Gold Metal</a></li>
+        <li><a href="https://ambientcg.com/view?id=Wood066">Wood</a></li>
+    </ul>
     Thank you!
 </div>
