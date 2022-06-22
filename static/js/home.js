@@ -3,7 +3,8 @@ $(document).ready(function() {
   $(".typed").typed({
     strings: [
       "stat pablo.human<br/>" + 
-      "><span class='dollar'>$</span> school: computer science major, data science minor at william &amp; mary<br/> ^100" +
+      "><span class='dollar'>$</span> school: computer science graduate from william &amp; mary<br/> ^100" +
+      "><span class='dollar'>$</span> <a href='https://pablo.codes/projects'>experience</a>: development with <a href='https://pablo.codes/projects/covid-champion'>c++</a>, <a href='https://pablo.codes/projects/following-the-bell'>engines</a>, <a href='https://pablo.codes/projects/throw-lab'>VR</a><br/> ^100" +
       "><span class='dollar'>$</span> career: looking for full-time position in game development<br/> ^100" +
       "><span class='dollar'>$</span> honors: <a href='https://www.wm.edu/as/1693scholars/current/solano_p/index.php'>stamps 1693 scholar</a>, william &amp; mary scholar, james monroe scholar<br/> ^100" +
       "><span class='dollar'>$</span> languages: c++, python, javascript, C#<br/> ^100" +
