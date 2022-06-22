@@ -7,6 +7,9 @@ add projects
  - ~~COVID Champion~~
  - ~~Throw Lab~~
  - ~~Pong~~
+ - Maya animations
+ - Computer Graphics projects
+ - Network Systems & Design projects
  - maze application (two repos in gitlab)
  - shacks? (scambot, 1x1 sudoku)
  - sudoku algorithms
