@@ -6,7 +6,7 @@ $(document).ready(function() {
       "><span class='dollar'>$</span> career: associate software engineer @ riot games<br/> ^100" +
       "><span class='dollar'>$</span> team: the league engine // content workflows<br/> ^100" +
       "><span class='dollar'>$</span> socials: <a href='http://www.github.com/pasolano/'>github</a>, <a href='http://in.linkedin.com/in/pabloadriansolano/'>linkedin</a><br/>" +
-      "><span class='dollar'>$</span> school: computer science major, data science minor at william &amp; mary<br/> ^100"
+      "><span class='dollar'>$</span> school: computer science graduate from william &amp; mary<br/> ^100"
     ],
     showCursor: true,
     cursorChar: '_',

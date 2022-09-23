@@ -1,0 +1,76 @@
+<h1>Pablo Solano | May 13th, 2022 | Final Project -- <i>Long Live the King</i></h1>
+
+<!-- Youtube link to video -->
+<div>
+    <h2>Animation:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eM8Z-i1QCmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br/><br/>
+<!-- Storyboard(s) -->
+<div>
+    <h2>Storyboard:</h2>
+    <img style="display: block;margin-left: auto;margin-right: auto;" width="560" src="{{ url_for('static', filename='images/maya/proj6/storyboard.png') }}"/>
+</div>
+<!-- Written description -->
+<div>
+    <h2>Plot Description:</h2>
+    <p>
+        The scene opens with a shot of an already started game of chess. White has a clear material advantage. A white knight jumps (using squash and stretch and arcs) in an L shape to topple the remaining black bishop.
+        Taking the bait, the black rook takes the white knight, sliding over as the path is direct. In response, a white bishop takes the black rook. This leaves black with only their king, forcing it to make the only legal move remaining
+        moving to the back left corner with squash and stretch and arcing. The white king responds by moving forward to (stale)mate the black king. The white king looks at the black king, hungry for a victory. The black king looks left and right,
+        realizing the end is near. It trembles in fear. To everyones surprise, a black pawn sheds its costume, revealing itself to actually be a <i>white</i> pawn. The white king looks at the black pawn in shock, inching away from its sudden and certain doom.
+        The black pawn charges up a strong strike, and hits the white king into a white knight, toppling them both. Black is victorious!
+    </p>
+    <h2>Principles of Animation Description:</h2>
+    <p>
+        My animation followed the principles of animation as closely as possible.
+        <ul>
+            <li>Squash and Stretch -- Used for pieces that moved in strange paths (knights) and pieces that had extra personality (the disguised pawn, the kings)</li>
+            <li>Anticipation -- This is most obvious when the disguised pawn charges up a jump as we see the white king slowly edge away. There is also some anticipation before this climax, as the kings dramatically assess their situation (and the battle has a tense pause)</li>
+            <li>Staging -- This step was planned meticulously with a digital chess board, where I ensured that the moves happening were not only legal, but also captivating. More pieces are on the board than are used, but not so many that the action is hidden. Toward the end, we see the black king surrounded by an army of white pieces. Chess has cinematic staging on its own, I just highlighted it by controlling the scenes perspective, focus, and design.
+            <li>Pose to Pose -- You can not see it in the final product, but this was key to keyframing the arcs and the pieces that fell. Manual animation like this is much easier when first deciding where a piece should end up</li>
+            <li>Follow Through -- While not traditional "follow through," I was happy with how the "big impact" on the white king led to it also knocking over the white knight, highlighting the force it was hit with</li>
+            <li>Arc -- Pieces move in arcs while jumping</li>
+            <li>Timing -- This was the hardest part to get right, but I had the pieces interact with each other separated by brief moments of inaction. I also gave the audience enough time to process each revelation</li>
+            <li>Appeal -- Making the black king appear afraid was to make the audience feel empathy for it, before the disguised pawn leaped to its aid</li>
+        </ul>
+    </p>
+</div>
+<!-- Three frames from animation -->
+<div style="text-align:center;">
+    <h2>Animation Frames:</h2>
+    <br/>
+    <img style="display: block;margin-left: auto;margin-right: auto;" width="560" src="{{ url_for('static', filename='images/maya/proj6/img1.png') }}"/>
+    <h3>Initial Board Action</h3>
+    <img style="display: block;margin-left: auto;margin-right: auto;" width="560" src="{{ url_for('static', filename='images/maya/proj6/img2.png') }}"/>
+    <h3>Black King in Peril</h3>
+    <img style="display: block;margin-left: auto;margin-right: auto;" width="560" src="{{ url_for('static', filename='images/maya/proj6/img3.png') }}"/>
+    <h3>A Hero Saves the Day!</h3>
+</div>
+<!-- any explanation of your work that you would like to provide, including problems you
+encountered and how you resolved them -->
+<div>
+    <h2>Extra Explanation of Work:</h2>
+    <p>
+        Everything in this animation was made by me, except for the textures. Modeling chess pieces was intimidating at first, but I found that modeling simple pieces was easy now that I have the treasure chest under my belt.
+        This is my scene with the most complicated lighting. I used a grid of area lights and a closer point light to illuminate the room and put focus on the board. It was tricky getting shadows, reflections, and contrast all in one scene.
+        While the lights in the scene led to good results (as seen in the images above), the video produced by FFMPEG was significantly darker. I used DaVinci Resolve to increase the contrast, and it produced better contrast than the original render.
+        The largest challenge was working with timing, as the vision in my head is hard to do when manually keyframing a scene. In the end I was happy with how the timing came out, even if it was faster and floatier than I imagined. I think the feeling of the piece
+        would be different if it had more realistic collisions -- this way feels more "action-y" in my opinion.
+    </p>
+</div>
+
+<marquee>Thank you for the class!</marquee>
+
+<!-- Cite sources-->
+<div>
+    Sources:
+    <ul>
+        <li><a href="https://tileable.co/?my_cat=Every&my_search=Chess%20board">Chess Board Texture</a></li>
+        <li><a href="https://ambientcg.com/view?id=Marble019">Texture for White Pieces</a></li>
+        <li><a href="https://ambientcg.com/view?id=Marble016">Texture for Black Pieces</a></li>
+        <li><a href="https://ambientcg.com/view?id=Wood048">Texture for Wood Block</a></li>
+        <li><a href="https://i.ebayimg.com/images/g/OWwAAOSw-0Bd8zjS/s-l1600.jpg">Reference for Some Pieces</a></li>
+        <li><a href="https://lichess.org/editor">Chess Setup Planning</a></li>
+    </ul>
+</div>

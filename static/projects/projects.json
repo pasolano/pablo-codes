@@ -108,6 +108,8 @@
       "status": "ongoing",
       "weight": 10,
       "tags": [
+        "godot",
+        "GDScript",
         "game",
         "team",
         "long-term",
@@ -121,6 +123,7 @@
       "photos": [
         "/static/projects/following-the-bell/minimap.png"
       ],
+      "github": "https://github.com/pasolano/gfems-game",
       "website": "https://www.gfems.org/"
     },
     {
