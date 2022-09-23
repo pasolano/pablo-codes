@@ -60,3 +60,5 @@ function openTerminal() {
     max();
   });
 }
+
+console.log("the terminal supports some commands :)")
