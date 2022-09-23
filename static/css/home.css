@@ -132,6 +132,11 @@ ul li a {
   }
 }
 
+@font-face {
+  font-family: "mononoki";
+  src: url("/fonts/mononoki-Regular.otf") format;
+}
+
 #terminal #terminal-container .overlay {
   position: absolute;
   background-color: #FFF;
@@ -250,7 +255,7 @@ ul li a {
 #terminal .message {
   position: relative;
   color: rgba(255, 255, 255, 0.75);
-  font-family: "Source Code Pro", monospace;
+  font-family: "mononoki", monospace;
   width: 95%;
   margin: auto;
   padding: 1.5vh 0 0;
@@ -264,7 +269,7 @@ ul li a {
   margin-bottom: 1em;
 }
 #terminal .message span a {
-  font-family: "Source Code Pro", monospace;
+  font-family: "mononoki", monospace;
   border-bottom: 1px dotted rgba(255, 255, 255, 0.75);
 }
 #terminal .message form input {
@@ -272,7 +277,7 @@ ul li a {
   border: none;
   outline: none;
   caret-color: #50cd70;
-  font-family: "Source Code Pro", monospace;
+  font-family: "mononoki", monospace;
   font-size: 90%;
   color:rgba(255, 255, 255, 0.75);
 }
